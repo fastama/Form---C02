@@ -15,7 +15,7 @@
 </head>
 <body>
     <h1>Mẫu nhập thông tin sinh viên</h1><hr>
-    <form action="#" method="get">
+    <form>
         <fieldset>
             <legend>Thông tin cơ bản</legend>
 
@@ -34,7 +34,7 @@
         <fieldset>
             <legend>Thông tin liên lạc</legend>
             <label for="email">Email: <input type="email" id="email" placeholder="example@gmail.com" required></label><br><br>
-            <label for="sdt">Số điện thoại: <input type="number" id="sdt"  required></label><br><br>
+            <label for="sdt">Số điện thoại: <input type="number" id="sdt" min="111111111" max="99999999999"  required></label><br><br>
         </fieldset><br>
         <button type="submit">Gửi</button>
     </form>
