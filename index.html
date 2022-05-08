@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trương Minh Thiện - C02 - Form</title>
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+        }
+    </style>
 </head>
 <body>
     <h1>Mẫu nhập thông tin sinh viên</h1><hr>
@@ -27,9 +34,9 @@
         <fieldset>
             <legend>Thông tin liên lạc</legend>
             <label for="email">Email: <input type="email" id="email" placeholder="example@gmail.com" required></label><br><br>
-            <label for="sdt">Số điện thoại: <input type="text" id="sdt" required></label><br><br>
+            <label for="sdt">Số điện thoại: <input type="number" id="sdt"  required></label><br><br>
         </fieldset><br>
         <button type="submit">Gửi</button>
     </form>
 </body>
-</html>
+</html>  
